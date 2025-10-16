@@ -3438,6 +3438,9 @@ This guide is available in other languages too. See [Translation](#translation)
   - [ES6 Features](https://github.com/lukehoban/es6features) - Luke Hoban
   - [Frontend Guidelines](https://github.com/bendc/frontend-guidelines) - Benjamin De Cock
 
+## Our code mistakes
+
+  - <img width="1068" height="792" alt="image" src="https://github.com/user-attachments/assets/35cd99cc-cf23-499a-b8a4-9c0c42e49203" />
 
 
 # };
