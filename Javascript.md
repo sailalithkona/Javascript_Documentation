@@ -29,7 +29,6 @@ This guide is available in other languages too. See [Translation](#translation)
   1. [Events](#events)
   1. [jQuery](#jquery)
   1. [ECMAScript 6+ (ES 2015+) Styles](#ecmascript-6-es-2015-styles)
-  1. [The JavaScript Style Guide Guide](#the-javascript-style-guide-guide)
 
 ## Types
 
