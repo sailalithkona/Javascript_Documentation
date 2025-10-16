@@ -29,8 +29,8 @@ This guide is available in other languages too. See [Translation](#translation)
   1. [Events](#events)
   1. [jQuery](#jquery)
   1. [ECMAScript 6+ (ES 2015+) Styles](#ecmascript-6-es-2015-styles)
-  1. [Our code guidlines](#test)
-  1. [Variable Declaration in JavaScript: let, const, and var](#Variable Declaration in JavaScript: let, const, and var)
+  1. [Our code guidlines](#Our-code-mistakes)
+  1. [Variable Declaration in JavaScript: let, const, and var](#Variable-Declaration-in-JavaScript:-let,-const,-and-var)
 
 ## Types
 
@@ -3439,7 +3439,7 @@ This guide is available in other languages too. See [Translation](#translation)
   - [ES6 Features](https://github.com/lukehoban/es6features) - Luke Hoban
   - [Frontend Guidelines](https://github.com/bendc/frontend-guidelines) - Benjamin De Cock
 
-## Our code mistakes
+## Our-code-mistakes
 
 Unreadable Variable Names:
 Meaningless or Ambiguous Names: Variables like a, b, temp, data without further context provide no indication of their purpose.
@@ -3448,7 +3448,7 @@ Excessive Abbreviations or Acronyms: Overly shortened names can be difficult to 
 
   - <img width="1068" height="792" alt="image" src="https://github.com/user-attachments/assets/35cd99cc-cf23-499a-b8a4-9c0c42e49203" />
 
-#Variable Declaration in JavaScript: let, const, and var
+##Variable-Declaration-in-JavaScript:-let,-const,-and-var
 
    1. let – Block Scoped Variable
     
