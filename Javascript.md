@@ -4,6 +4,7 @@ This guide is available in other languages too. See [Translation](#translation)
 
 ## Table of Contents
 
+  1. [Variables](#variables)
   1. [Types](#types)
   1. [References](#references)
   1. [Objects](#objects)
@@ -15,7 +16,6 @@ This guide is available in other languages too. See [Translation](#translation)
   1. [Classes & Constructors](#classes--constructors)
   1. [Iterators and Generators](#iterators-and-generators)
   1. [Properties](#properties)
-  1. [Variables](#variables)
   1. [Comparison Operators & Equality](#comparison-operators--equality)
   1. [Blocks](#blocks)
   1. [Control Statements](#control-statements)
