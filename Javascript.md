@@ -30,7 +30,7 @@ This guide is available in other languages too. See [Translation](#translation)
   1. [jQuery](#jquery)
   1. [ECMAScript 6+ (ES 2015+) Styles](#ecmascript-6-es-2015-styles)
   1. [Our code guidlines](#Our-code-mistakes)
-  1. [Variable Declaration in JavaScript: let const and var](#Variable-Declaration-in-JavaScript:-let-const-and-var)
+  1. [Variable Declaration in JavaScript let const and var](#Variable-Declaration-in-JavaScript:-let-const-and-var)
 
 ## Types
 
