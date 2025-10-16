@@ -3448,7 +3448,7 @@ Excessive Abbreviations or Acronyms: Overly shortened names can be difficult to 
 
   - <img width="1068" height="792" alt="image" src="https://github.com/user-attachments/assets/35cd99cc-cf23-499a-b8a4-9c0c42e49203" />
 
-##Variable-Declaration-in-JavaScript:-let,-const,-and-var
+## Variable-Declaration-in-JavaScript:-let,-const,-and-var
 
    1. let – Block Scoped Variable
     
