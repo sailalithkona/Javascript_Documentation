@@ -30,6 +30,7 @@ This guide is available in other languages too. See [Translation](#translation)
   1. [jQuery](#jquery)
   1. [ECMAScript 6+ (ES 2015+) Styles](#ecmascript-6-es-2015-styles)
   1. [Our code guidlines](#test)
+  1. [Variable Declaration in JavaScript: let, const, and var](#Variable Declaration in JavaScript: let, const, and var)
 
 ## Types
 
@@ -3440,7 +3441,77 @@ This guide is available in other languages too. See [Translation](#translation)
 
 ## Our code mistakes
 
+Unreadable Variable Names:
+Meaningless or Ambiguous Names: Variables like a, b, temp, data without further context provide no indication of their purpose.
+Single-Letter Names (unless standard): While i, j, k are common for loop counters, using them for other purposes can be confusing.
+Excessive Abbreviations or Acronyms: Overly shortened names can be difficult to decipher without prior knowledge.
+
   - <img width="1068" height="792" alt="image" src="https://github.com/user-attachments/assets/35cd99cc-cf23-499a-b8a4-9c0c42e49203" />
+
+#Variable Declaration in JavaScript: let, const, and var
+
+   1. let – Block Scoped Variable
+    
+    - Use let when the variable value needs to change later.
+    
+    - It is block scoped, meaning it is accessible only inside the {} where it’s declared.
+    
+    - It helps avoid accidental redeclaration and scope-related bugs.
+     ```javascript
+     //Best practice 
+     
+      let count = 5;
+      count = 10; // ✅ allowed
+      console.log(count); // 10
+     
+     ```
+     2. const – Block Scoped Constant
+      
+      Use const when the variable value should not change.
+      
+      It is also block scoped.
+      
+      It improves code readability and prevents unintended reassignment.
+
+      ```javascript
+      
+      const API_URL = "https://api.example.com";
+      API_URL = "https://newapi.com"; // ❌ Error: Assignment to constant variable
+
+      ```
+      
+      3. var – Function Scoped Variable (Avoid in Modern Code)
+          
+          var is function scoped, not block scoped.
+          
+          It can be redeclared or updated anywhere in its scope, which can cause unexpected results.
+          
+          Best Practice: Avoid using var in modern JavaScript — use let or const instead.
+
+          ```javascript
+          var name = "John";
+          var name = "Doe"; // ✅ allowed but not recommended
+          console.log(name); // Doe
+
+          ```
+      4. When to Use var
+
+        While var is generally discouraged, it can still be used for global variables in certain controlled situations, such as:
+        
+        Declaring configuration variables that need to be globally accessible.
+        
+        Supporting legacy code that relies on var scope behavior.     
+
+        ```javascript
+
+        var appVersion = "1.0.0"; // Global variable
+        function showVersion() {
+          console.log(appVersion);
+        }
+        showVersion(); // 1.0.0
+        
+        ```
+  - <img width="888" height="554" alt="image" src="https://github.com/user-attachments/assets/a7f91450-bb18-477d-9910-ad8815a6a813" />
 
 
 # };
