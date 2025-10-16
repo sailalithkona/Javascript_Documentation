@@ -3450,13 +3450,14 @@ Excessive Abbreviations or Acronyms: Overly shortened names can be difficult to 
 
 ## Variable-Declaration-in-JavaScript:-let,-const,-and-var
 
-   1. let – Block Scoped Variable
-    
-    - Use let when the variable value needs to change later.
-    
-    - It is block scoped, meaning it is accessible only inside the {} where it’s declared.
-    
-    - It helps avoid accidental redeclaration and scope-related bugs.
+ 1. let – Block Scoped Variable
+  
+- Use let when the variable value needs to change later.
+
+- It is block scoped, meaning it is accessible only inside the {} where it’s declared.
+  
+- It helps avoid accidental redeclaration and scope-related bugs.
+  
      ```javascript
      //Best practice 
      
@@ -3465,13 +3466,13 @@ Excessive Abbreviations or Acronyms: Overly shortened names can be difficult to 
       console.log(count); // 10
      
      ```
-     2. const – Block Scoped Constant
-      
-      Use const when the variable value should not change.
-      
-      It is also block scoped.
-      
-      It improves code readability and prevents unintended reassignment.
+   2. const – Block Scoped Constant
+    
+    Use const when the variable value should not change.
+    
+    It is also block scoped.
+    
+    It improves code readability and prevents unintended reassignment.
 
       ```javascript
       
@@ -3480,13 +3481,13 @@ Excessive Abbreviations or Acronyms: Overly shortened names can be difficult to 
 
       ```
       
-      3. var – Function Scoped Variable (Avoid in Modern Code)
-          
-          var is function scoped, not block scoped.
-          
-          It can be redeclared or updated anywhere in its scope, which can cause unexpected results.
-          
-          Best Practice: Avoid using var in modern JavaScript — use let or const instead.
+    3. var – Function Scoped Variable (Avoid in Modern Code)
+        
+        var is function scoped, not block scoped.
+        
+        It can be redeclared or updated anywhere in its scope, which can cause unexpected results.
+        
+        Best Practice: Avoid using var in modern JavaScript — use let or const instead.
 
           ```javascript
           var name = "John";
@@ -3494,13 +3495,13 @@ Excessive Abbreviations or Acronyms: Overly shortened names can be difficult to 
           console.log(name); // Doe
 
           ```
-      4. When to Use var
+    4. When to Use var
 
-        While var is generally discouraged, it can still be used for global variables in certain controlled situations, such as:
-        
-        Declaring configuration variables that need to be globally accessible.
-        
-        Supporting legacy code that relies on var scope behavior.     
+    While var is generally discouraged, it can still be used for global variables in certain controlled situations, such as:
+    
+    Declaring configuration variables that need to be globally accessible.
+    
+    Supporting legacy code that relies on var scope behavior.     
 
         ```javascript
 
