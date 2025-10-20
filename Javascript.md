@@ -3439,14 +3439,21 @@ This guide is available in other languages too. See [Translation](#translation)
   - [ES6 Features](https://github.com/lukehoban/es6features) - Luke Hoban
   - [Frontend Guidelines](https://github.com/bendc/frontend-guidelines) - Benjamin De Cock
 
-## Our-code-mistakes
+## Our-code-guidlines
 
 Unreadable Variable Names:
 Meaningless or Ambiguous Names: Variables like a, b, temp, data without further context provide no indication of their purpose.
 Single-Letter Names (unless standard): While i, j, k are common for loop counters, using them for other purposes can be confusing.
 Excessive Abbreviations or Acronyms: Overly shortened names can be difficult to decipher without prior knowledge.
 
+//Bad parctice
+
   - <img width="1068" height="792" alt="image" src="https://github.com/user-attachments/assets/35cd99cc-cf23-499a-b8a4-9c0c42e49203" />
+
+//Good practice and more readable code
+
+  - <img width="1252" height="815" alt="image" src="https://github.com/user-attachments/assets/fcb3300b-638d-470d-9f6f-0cb9aa7349fe" />
+
 
 ## Variable-Declaration-in-JavaScript:-let,-const,-and-var
 
@@ -3512,7 +3519,16 @@ Excessive Abbreviations or Acronyms: Overly shortened names can be difficult to 
         showVersion(); // 1.0.0
         
         ```
+
+  Use regular Jquery formate.
+
+  //Bad practice
+  
   - <img width="888" height="554" alt="image" src="https://github.com/user-attachments/assets/a7f91450-bb18-477d-9910-ad8815a6a813" />
+
+  //Good practice
+
+  - <img width="1185" height="851" alt="image" src="https://github.com/user-attachments/assets/f2bd734f-b810-47d1-97fc-de8cfe90e161" />
 
 
 # };
