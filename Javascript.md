@@ -31,7 +31,8 @@ This guide is available in other languages too. See [Translation](#translation)
   1. [ECMAScript 6+ (ES 2015+) Styles](#ecmascript-6-es-2015-styles)
   1. [Our code guidlines](#Our-code-guidlines)
   1. [Variable Declaration in JavaScript let const and var](#Variable-Declaration-in-JavaScript-let-const-and-var)
-  1. [Use regular Jquery formate](#Use-regular-Jquery-formate)
+  1. [Use regular JQuery style formate](#Use-regular-Jquery-formate)
+  1. [JavaScript structure format].(#JavaScript-structure-format)
 
 ## Types
 
@@ -3531,5 +3532,4 @@ Excessive Abbreviations or Acronyms: Overly shortened names can be difficult to 
 
   - <img width="1185" height="851" alt="image" src="https://github.com/user-attachments/assets/f2bd734f-b810-47d1-97fc-de8cfe90e161" />
 
-
-# };
+## JavaScript-structure-format
