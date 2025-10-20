@@ -32,7 +32,7 @@ This guide is available in other languages too. See [Translation](#translation)
   1. [Our code guidlines](#Our-code-guidlines)
   1. [Variable Declaration in JavaScript let const and var](#Variable-Declaration-in-JavaScript-let-const-and-var)
   1. [Use regular JQuery style formate](#Use-regular-Jquery-formate)
-  1. [JavaScript structure format].(#JavaScript-structure-format)
+  1. [JavaScript structure format](#JavaScript-structure-format)
 
 ## Types
 
@@ -3531,5 +3531,51 @@ Excessive Abbreviations or Acronyms: Overly shortened names can be difficult to 
   //Good practice
 
   - <img width="1185" height="851" alt="image" src="https://github.com/user-attachments/assets/f2bd734f-b810-47d1-97fc-de8cfe90e161" />
+  
+**[⬆ back to top](#table-of-contents)**
 
 ## JavaScript-structure-format
+
+  **Folder Structure Overview**
+
+  ```javascript
+      project/
+│
+├── assets/
+│   ├── css/
+│   ├── js/
+│   └── images/
+│
+├
+│   ├── dashboard/
+│   │   ├── dashboard.html
+│   │   ├── dashboard.css
+│   │   ├── dashboard.js
+│   │   └── dashboardService.js
+│   │
+│   ├── profile/
+│   │   ├── profile.html
+│   │   ├── profile.css
+│   │   ├── profile.js
+│   │   └── profileService.js
+│   │
+│   └── reports/
+│       ├── reports.html
+│       ├── reports.css
+│       ├── reports.js
+│       └── reportsService.js
+│
+├── common/
+│   ├── header.html
+│   ├── footer.html
+│   ├── utils.js
+│   └── constants.js
+│
+└── home.html
+|__ style.css
+|__ components.css
+
+
+  ```
+  
+  
