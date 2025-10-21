@@ -3458,29 +3458,29 @@ Excessive Abbreviations or Acronyms: Overly shortened names can be difficult to 
   - <img width="1252" height="815" alt="image" src="https://github.com/user-attachments/assets/fcb3300b-638d-470d-9f6f-0cb9aa7349fe" />
 
 **- Code Formatting:**
-    Before submitting a patch, format your JavaScript code using Ctrl + Shift + F to ensure consistency.
+   - Before submitting a patch, format your JavaScript code using Ctrl + Shift + F to ensure consistency.
 **- Error Handling:**
-    Wrap every function in a try-catch block to gracefully handle exceptions.
+   - Wrap every function in a try-catch block to gracefully handle exceptions.
 **- Conditional Clarity:**
-    Always place constants on the left-hand side in if and else if conditions for better readability.
+   - Always place constants on the left-hand side in if and else if conditions for better readability.
 **- Naming Conventions:**
-    Use clear, descriptive variable and function names that reflect the feature context.
+   - Use clear, descriptive variable and function names that reflect the feature context.
 **- Function Length:**
-    Limit each function to 35–45 lines to maintain readability within a single screen view.
+   - Limit each function to 35–45 lines to maintain readability within a single screen view.
 **- Line Width:**
-    Keep individual lines of code under 120 characters to avoid horizontal scrolling.
+   - Keep individual lines of code under 120 characters to avoid horizontal scrolling.
 **- String Concatenation:**
-    Use template literals (`${}`) instead of + for combining strings and variables.
+   - Use template literals (`${}`) instead of + for combining strings and variables.
 **- Variable Declaration:**
-    Prefer let and const over var to ensure proper scoping and cleaner code.
+   - Prefer let and const over var to ensure proper scoping and cleaner code.
 **- Dynamic HTML:**
-    When generating HTML dynamically in JavaScript, use template literals.
-    Example:
-    let sampleHtml = `<div><span>Dynamic HTML ${variable}</span></div>`;
+   - When generating HTML dynamically in JavaScript, use template literals.
+   - Example:
+   - let sampleHtml = `<div><span>Dynamic HTML ${variable}</span></div>`;
 **- DOM Access:**
-    Avoid repeatedly querying the same id or class. Instead, store them in variables for reuse.
+   - Avoid repeatedly querying the same id or class. Instead, store them in variables for reuse.
 **- Conditional Simplification:**
-    Use standalone if conditions when possible. Avoid unnecessary else blocks if the logic allows.
+   - Use standalone if conditions when possible. Avoid unnecessary else blocks if the logic allows.
 
 
 
