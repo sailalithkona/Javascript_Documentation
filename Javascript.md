@@ -3478,7 +3478,7 @@ Excessive Abbreviations or Acronyms: Overly shortened names can be difficult to 
    - Example:
    - let sampleHtml = `<div><span>Dynamic HTML ${variable}</span></div>`;
 **- DOM Access:**
-   - Avoid repeatedly querying the same id or class. Instead, store them in variables for reuse.
+   - Avoid repeatedly querying the same id or class. Instead, store them in variables for reuse. 
 **- Conditional Simplification:**
    - Use standalone if conditions when possible. Avoid unnecessary else blocks if the logic allows.
 
