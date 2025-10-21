@@ -3457,11 +3457,11 @@ Excessive Abbreviations or Acronyms: Overly shortened names can be difficult to 
 
   - <img width="1252" height="815" alt="image" src="https://github.com/user-attachments/assets/fcb3300b-638d-470d-9f6f-0cb9aa7349fe" />
 
-1. Code Formatting:
-   - Before submitting a patch, format your JavaScript code using Ctrl + Shift + F to ensure consistency.
-     
-2. Error Handling:
+1. Error Handling:
    - Wrap every function in a try-catch block to gracefully handle exceptions.
+     
+2. Code Formatting:
+   - Before submitting a patch, format your JavaScript code using Ctrl + Shift + F to ensure consistency.
   
 3. Conditional Clarity:
    - Always place constants on the left-hand side in if and else if conditions for better readability.
