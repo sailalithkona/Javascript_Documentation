@@ -32,8 +32,7 @@ This guide is available in other languages too. See [Translation](#translation)
   1. [Our code guidlines](#Our-code-guidlines)
   1. [Variable Declaration in JavaScript let const and var](#Variable-Declaration-in-JavaScript-let-const-and-var)
   1. [Use regular JQuery style formate](#Use-regular-Jquery-formate)
-  1. [JavaScript structure format](#JavaScript-structure-format)
-  1. Following JavaScript guidelines 
+  1. [JavaScript structure format](#JavaScript-structure-format) 
 
 ## Types
 
