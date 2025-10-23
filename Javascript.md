@@ -3557,7 +3557,8 @@ Excessive Abbreviations or Acronyms: Overly shortened names can be difficult to 
         showVersion(); // 1.0.0
         
         ```
-
+  **[⬆ back to top](#table-of-contents)**
+  
   ## Use regular Jquery formate.
 
   //Bad practice
